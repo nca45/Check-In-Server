@@ -1,0 +1,59 @@
+table, th, td{
+
+	border:1px solid black;
+	border-collapse: collapse;
+}
+h1,th,h2, p{
+
+	text-align: center;
+	font-family: Arial;
+}
+
+table#tableOfUsers{
+	
+	margin-left: auto;
+	margin-right:auto;
+}
+
+
+th,td{
+
+	padding:10px;
+}
+
+td{
+
+	font-size: larger;
+	font-family:arial;
+}
+
+section {
+
+	border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow: hidden
+}
+
+div{
+	padding: 8px 16px;
+	text-align: center;
+}
+
+button:hover {
+
+    background-color: #70a6ff;
+}
+
+button {
+    background-color: #89b6ff;
+    border: none;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    clear:right;
+}

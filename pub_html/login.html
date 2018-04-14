@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+
+    <title>Users</title>
+
+    <link rel='stylesheet' href='./css/loginform.css'>
+
+</head>
+<body>
+
+    <h1>Assignment 3 - login page</h1>
+    
+    <section>
+      <form action="/login" method="post">
+          <h2>Admin Login</h2>
+        <label for="uname">USERNAME:</label> <br />
+        <input  placeholder='username' name='uname' type='text' required /> <br />
+        <label for="password">PASSWORD:</label> <br />
+        <input  placeholder='password' name='password' type='password' required /> <br />
+        <button>Login</button>
+      </form>
+    </section>
+    <button id="checkinUser">CHECK-IN NOW</button>
+
+    <script type="text/javascript">
+    document.getElementById("checkinUser").onclick = function () {
+        location.href = "checkinUser.html";
+    };
+</script>
+
+    <script src="./js/jquery.min.js"></script>
+    <!-- <script src="./js/script.js"></script> -->
+
+</body>
+</html>
