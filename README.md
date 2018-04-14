@@ -19,7 +19,7 @@ if you plan on testing out this project. The port number is at a default 3000.
 
 **For Admin**
 
-The admin will be able to log into the `admin login` fields. Upon logging in, the admin will be taken to a landing page where a `check-in ID` can be entered. The admin can either
+The admin will be able to log into the `admin login` fields. Upon logging in, the admin will be taken to a landing page where a `Check-In ID` can be entered. The admin can either
 
 - Start the check-in process
 - View all users who have checked into that particular check-in ID
