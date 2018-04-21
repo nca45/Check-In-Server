@@ -1,12 +1,14 @@
 # Check-In-Server
-A Javascript webpage that allows multiple users to 'check in' to a class or event monitored by an admin
+A Javascript webpage using node.js that allows multiple users to 'check in' to a class or event monitored by an admin
 
 This project was developed for CMPT 218 - Special Topics in Computing Science
 
-## NPM Dependencies
-This project requires `node.js`, `express` and `mongodb`
+## Dependencies
+This project requires npm dependencies for `express` and `mongodb`
 
 Be sure to use `npm install` to ensure the project compiles
+
+This project also requires node.js
 
 ## Using this project
 I have commented out my mongodb database URL for obvious security reasons. Make sure you fill these variables
