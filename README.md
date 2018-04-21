@@ -4,7 +4,7 @@ A Javascript webpage that allows multiple users to 'check in' to a class or even
 This project was developed for CMPT 218 - Special Topics in Computing Science
 
 ## NPM Dependencies
-This project requires `express`, `mongodb`, and `serve-index`.
+This project requires `express` and `mongodb`
 
 Be sure to use `npm install` to ensure the project compiles
 
